@@ -7,7 +7,7 @@ password = "password"
 #f5dev.txt contains the IP address of the F5 devices
 host_file = open("f5dev.txt","r").read().split('\n')
 
-#ipchec.txt contains the list of pool IP to check
+#ipcheck.txt contains the list of pool IP to check
 check_ip = open("ipcheck.txt","r").read().split('\n')
 
 for ip in host_file:
